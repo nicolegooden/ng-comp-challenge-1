@@ -1,0 +1,22 @@
+header {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  height: 100px;
+  color: white;
+}
+
+.header-content-left {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.header-content-right {
+  display: flex;
+  align-items: flex-end;
+  width: 75%;
+  float: right;
+}
