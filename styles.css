@@ -12,7 +12,7 @@ article {
 }
 
 .article-link {
-  background-color: #E5E7E9;
+  background-color: #dddddd;
   margin-left: 1rem;
   margin-right: 1rem;
   padding-bottom: 1rem;
@@ -111,4 +111,14 @@ img {
 
 .article-priority {
   margin-bottom: 0;
+}
+
+#icon-check {
+  height: 7%;
+  width: 4%;
+  position: absolute;
+  background-color: white;
+  border-radius: 100%;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
 }
