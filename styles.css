@@ -1,13 +1,30 @@
 article {
-  width: 25%;
-  height: 15rem;
+  width: 22%;
+  height: 20rem;
   /* display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr; */
   border-style: solid;
   border-color: grey;
   margin-top: 1rem;
   margin-right: 1rem;
-  text-align: center;
+  text-align: left;
+}
+
+.article-link {
+  background-color: #E5E7E9;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+h3 {
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.article-paragraph {
+  margin-top: 0;
+  margin-left: 1rem;
 }
 
 body {
@@ -36,7 +53,7 @@ header {
   background-color: black;
   display: grid;
   grid-template-columns: 80% 20%;
-  height: 100px;
+  height: 8%;
   color: white;
 }
 
@@ -51,15 +68,15 @@ header {
 .header-content-right {
   display: flex;
   justify-content: space-around;
+  /* text-align: right; */
   align-items: flex-end;
-  width: 75%;
+  width: 100%;
   float: right;
 }
 
 img {
-  height: 60%;
+  height: 45%;
   width: 100%;
   display: block;
-  background
-
+  background-position: top;
 }
