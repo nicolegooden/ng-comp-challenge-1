@@ -1,3 +1,37 @@
+article {
+  width: 25%;
+  height: 15rem;
+  /* display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr; */
+  border-style: solid;
+  border-color: grey;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.card-left-1, .card-left-2 {
+  margin-left: 0;
+}
+
+.card-right-1, .card-right-2 {
+  margin-right: 0;
+}
+
+.cards-row-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-row-2 {
+  display: flex;
+  justify-content: center;
+}
+
 header {
   background-color: black;
   display: grid;
@@ -16,7 +50,12 @@ header {
 
 .header-content-right {
   display: flex;
+  justify-content: space-around;
   align-items: flex-end;
   width: 75%;
   float: right;
 }
+
+/* main {
+
+} */
