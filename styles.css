@@ -1,6 +1,6 @@
 article {
-  width: 22%;
-  height: 30rem;
+  width: 23.5%;
+  height: 25rem;
   /* display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr; */
   border-style: solid;
@@ -30,7 +30,7 @@ article {
 
 body {
   margin: 0;
-  background-color: #d8e4ee;
+  background-color: #eaffff;
 }
 
 .card-left-1, .card-left-2 {
@@ -78,7 +78,7 @@ header {
 }
 
 img {
-  height: 45%;
+  height: 35%;
   width: 100%;
   display: block;
   background-position: top;
@@ -98,15 +98,16 @@ img {
 
 .article-number {
   margin-top: 0;
+  /* color: #8ed1d1; */
 }
 
 #destinations {
-  margin-top: 1rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .article-destination-location, .article-location-name, .article-priority, .article-number {
  margin-left: 1rem;
+ color: #636d6c
 }
 
 .article-priority {
@@ -121,4 +122,91 @@ img {
   border-radius: 100%;
   margin-left: 0.5rem;
   margin-top: 0.5rem;
+}
+
+.article-image-text {
+  position: absolute;
+  color: white;
+  text-align: right;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.article-image-number {
+  position: absolute;
+  color: white;
+  margin-top: 1.5rem;
+  /* margin-right: 1rem; */
+}
+
+.image-content-1 {
+  height: 8%;
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 25%; left: 3%;
+}
+
+.image-content-2 {
+  height: 8%;
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 25%; left: 28%;
+}
+
+.image-content-3 {
+  height: 8%;
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 25%; left: 53%;
+}
+
+.image-content-4 {
+  height: 8%;
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 25%; left: 78%;
+}
+
+.image-content-5 {
+  height: 8%;
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 73%; left: 3%;
+}
+
+.image-content-6 {
+  height: 8%;
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 73%; left: 28%;
+}
+
+.image-content-7 {
+  height: 8%;
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 73%; left: 53%;
+}
+
+.image-content-8 {
+  height: 8%;
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 73%; left: 78%;
 }
