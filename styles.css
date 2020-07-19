@@ -56,25 +56,31 @@ header {
   background-color: black;
   display: grid;
   grid-template-columns: 80% 20%;
-  height: 8%;
+  height: 15%;
   color: white;
 }
 
 .header-content-left {
   display: flex;
   justify-content: space-around;
-  width: 25%;
+  width: 40%;
   height: 100%;
   align-items: flex-end;
 }
 
 .header-content-right {
-  display: flex;
-  justify-content: space-around;
+  display: block;
+  /* justify-content: space-around; */
   /* text-align: right; */
-  align-items: flex-end;
-  width: 100%;
+  width: 75%;
   float: right;
+  position: relative;
+}
+
+.travel-bucket-list {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
 }
 
 img {
@@ -92,10 +98,6 @@ img {
   margin-top: 0;
 }
 
-/* h1 {
-  margin-top: 0;
-} */
-
 .article-number {
   margin-top: 0;
   /* color: #8ed1d1; */
@@ -103,6 +105,7 @@ img {
 
 #destinations {
   margin-left: 0.5rem;
+  margin-top: 2rem;
 }
 
 .article-destination-location, .article-location-name, .article-priority, .article-number {
@@ -145,7 +148,7 @@ img {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  top: 25%; left: 3%;
+  top: 33%; left: 3%;
 }
 
 .image-content-2 {
@@ -154,7 +157,7 @@ img {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  top: 25%; left: 28%;
+  top: 33%; left: 28%;
 }
 
 .image-content-3 {
@@ -163,7 +166,7 @@ img {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  top: 25%; left: 53%;
+  top: 33%; left: 53%;
 }
 
 .image-content-4 {
@@ -172,7 +175,7 @@ img {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  top: 25%; left: 78%;
+  top: 33%; left: 78%;
 }
 
 .image-content-5 {
@@ -181,7 +184,7 @@ img {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  top: 73%; left: 3%;
+  top: 92%; left: 3%;
 }
 
 .image-content-6 {
@@ -190,7 +193,7 @@ img {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  top: 73%; left: 28%;
+  top: 92%; left: 28%;
 }
 
 .image-content-7 {
@@ -199,7 +202,7 @@ img {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  top: 73%; left: 53%;
+  top: 92%; left: 53%;
 }
 
 .image-content-8 {
@@ -208,5 +211,16 @@ img {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  top: 73%; left: 78%;
+  top: 92%; left: 78%;
+}
+
+.header-content-left img {
+  height:21%;
+  width: 8%;
+  border-radius: 75%;
+  margin: 1.5rem 0.5rem 1.5rem 2rem;
+}
+
+.admin-username {
+  margin-bottom: 5rem;
 }
