@@ -9,14 +9,13 @@
 
 # Developer Version
 
-![developer comp](http://g.recordit.co/0rVIpSM6Be.gif)
+![developer comp pt 1](developer-comp-pt-1.png)
+
+![developer comp pt 1](developer-comp-pt-2.png)
 
 ## Responsive Design
 
   A series of styling modifications are in place at a max-width of 992 pixels:
-
-  ![responsive design gif](http://g.recordit.co/DO6zjkHwkS.gif)
-
 
   ![responsive design image](responsive-design.png)
 
@@ -38,6 +37,7 @@
 
   + Add media queries for very large screens, such as that of a TV.
   + Use CSS Grid for the main section of the website, so that less articles would be shown per row for smaller screens.  For instance, the standard calls for four articles in a row; two articles per row would lead to better user visibility of content.
+  + Feature functional gifs to show responsive design in action.
 
   ### Resources
 
