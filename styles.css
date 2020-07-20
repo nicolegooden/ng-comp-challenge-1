@@ -194,3 +194,39 @@ img {
   margin-left: 0.5rem;
   margin-top: 0.5rem;
 }
+
+@media screen and (max-width: 992px) {
+  .admin-username {
+    margin-bottom: 8rem;
+    height: 3rem;
+    width: 9rem;
+  }
+
+  .article-link {
+    overflow-wrap: break-word;
+  }
+
+  body {
+    background-color: cyan;
+  }
+
+  #destinations {
+    text-align: center;
+  }
+
+  .first-row {
+    top: 40%;
+  }
+
+  .header-content-left {
+    padding-left: 5rem;
+  }
+
+  .image-content-1, .image-content-5 {
+    left: 2%;
+  }
+
+  .second-row {
+    top: 101%;
+  }
+}
